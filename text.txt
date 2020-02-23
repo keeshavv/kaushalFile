@@ -1,0 +1,35 @@
+Business Goal: 
+1. Have to incident's SLA manually to avoid breach.
+2. It need to be mins for better efficiency, performed after every 10 mins.
+3. Different category have different priority.
+4. Consumes a lot of time as well manual efforts.
+5. Leniency to this may lead to SLA breach, henceforth penalty.
+
+Solution Approach:
+1. Tool which provide email alerts periodically with incident SLA.
+2. Alert sorts incident information based on SLA breach remaining time.
+3. To emphasize more on action which needs to be taken, data in alert is categorized in color codes too.
+
+Outcome:
+1. Reduction in manual efforts and calculation.
+2. Reduction in human errors.
+3. Increase in accuracy and efficiency.
+4. Helps to track during Outage situation when many incidents are there in queue.
+
+
+Business Goal:
+1. To perform "Happy Path Checkout" when incident/alert is generated.
+2. Average checkout time=15 mins.
+3. Average checkouts per day=120.
+4. During Outage situation, multiple application checkouts needs to be performed.
+5. Different application checkout require different test data to perform.
+
+Solution Approach:
+1. Java based tool which perform "Happy path checkout" with a click of a button.
+2. Parallel checkout can be performed at the same time for multiple applications.
+
+Outcome:
+1. Reduction in manual efforts.
+2. Reduction in Human errors.
+3. Increase in accuracy and efficiency.
+4. Helps to perform multiple checkouts at the same time.
